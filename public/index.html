@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas APP</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper noselect">
+
+        <div class="section">
+            <h1 class="web-site-title">📕 NOTAS APP 📖</h1>
+        </div>
+
+        <div class="section">
+            <h3 class="section__title">Agregar nota</h3>
+            <hr class="section__sep">
+            <form action="" method="get" id="note-form">
+                <div class="add-form">
+                    <div class="add-form__item-cont">
+                        <div class="add-form___item">
+                            <label class="add-form__label" for="">Tarea</label>
+                            <input class="add-form__input" type="text" name="" id="input-title">
+                        </div>
+
+                        <div class="add-form___item">
+                            <label class="add-form__label" for="">Fecha Limite</label>
+                            <input class="add-form__input" type="datetime-local" name="" id="input-date">
+                        </div>
+                    </div>
+
+                    <div class="add-form__item-cont">
+                        <div class="add-form___item">
+                            <label class="add-form__label" for="">Descripcion</label>
+                            <input class="add-form__input" type="text" name="" id="input-desc">
+                        </div>
+                    </div>
+
+                    <div class="add-form__item-cont">
+                        <div class="add-form___item">
+                            <input class="section__btn" type="submit" value="Agregar">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="section">
+            <h3 class="section__title">Ver Tareas Pendientes</h3>
+            <hr class="section__sep">
+
+            <div class="notes-cont" id="notes-cont">
+                <div class="note">
+                    <p class="note__title">Nota</p>
+                    <hr class="note__sep">
+                    <p class="note__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, beatae.
+                    </p>
+                    <p class="note__date">12/12/2022</p>
+                </div>
+
+                <div class="note">
+                    <p class="note__title">Nota</p>
+                    <hr class="note__sep">
+                    <p class="note__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, beatae.
+                    </p>
+                    <p class="note__date">12/12/2022</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
